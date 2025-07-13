@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0 60px;
+    margin-top: 10px;
+}
+
+.top-nav-leFt ul li, .top-nav-right ul li {
+    display: inline;
+}
+
+.top-nav-leFt ul li a, .top-nav-right ul li a {
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 15px;
+    color: #616060;
+}
+
+
+.top-nav-leFt ul li a:hover, .top-nav-right ul li a:hover{
+    color: blue;
+}
+
+/* middle nav section */
+
+.middle-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.middle-nav .mid-nav-center ul li {
+    display: inline;
+}
+
+.middle-nav .mid-nav-right ul li {
+    display: inline;
+}
+
+.middle-nav .mid-nav-center ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:#616060;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+
+.middle-nav .mid-nav-right ul li a {
+    margin: 0 12px;
+    color: rgb(51, 50, 50);
+    font-size: 22px;
+}
+
+.middle-nav .logo h1{
+    font-size: 35px;
+    color: rgb(235, 8, 8);
+    font-weight: 800;
+}
+
+.middle-nav .logo h1 span{
+    font-size: 25px;
+    color: rgb(65, 64, 64);
+    font-weight: 800;
+}
+
+.bottom-nav {
+    background: #000;
+}
+.bottom-nav p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.bottom-nav p a {
+    color: #e49449;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 600;
+}
+
+/* section */
+
+.action-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.text-content h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.shop-now-btn {
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-now-btn a {
+    text-decoration: none;
+}
+
+.shop-now-btn:hover {
+  background-color: #d0cfd4;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+
